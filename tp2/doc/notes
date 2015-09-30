@@ -1,0 +1,19 @@
+Th: Evaluation est déterminste
+---
+Preuve:
+-------
+Supposons que le résultat est vrai si l'expression prendre la forme suivantes:
+		-> if then else
+                -> iszero
+                -> succ
+
+
+___________
+evaluation for pred 0 -> 0 or stuck
+______
+regle de typage -> e:T
+________________________
+Exercice 1: Basic types
+________________________
+
+"if then else" est une expression langage.
